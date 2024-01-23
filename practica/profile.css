@@ -1,0 +1,47 @@
+.profile{
+    height: 75dvh;
+    background-image: url(images/fondoPlaneta.jpg);
+    background-size: cover;
+    outline-style: solid;
+    outline-color: var(--main-text-color);
+    outline-width: 5px;
+    margin: 5%;
+}
+ 
+h2{
+    text-align: center;
+    margin: 6% 5% 0%; /*Para separar el texto del margen izquierdo y derecho*/
+}
+
+
+.profile .profile__content .profile__content__element{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px; 
+}
+
+.profile .profile__content img {
+width:35px;
+}
+
+.about__Oscar{
+    line-height: 1.6;
+    list-style-position: inside;
+    margin: 2% 5% 3%;/*Para separar el texto del margen izquierdo y derecho*/
+}
+
+.about__Oscar p{
+    margin-top: 3px;
+}
+
+.soft__skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:90%;
+    margin-left: 10%;
+
+
+}
