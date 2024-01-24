@@ -41,7 +41,27 @@
     justify-content: center;
 }
 
+@media(hover:hover){
+.header__nav__list__list__items:hover{
+    background-color: var(--elements-color);
+    padding: 5px;
+}
+}
+
 .header__nav__list__list__items i{
     display: flex;
     justify-content: center;
+}
+
+
+
+@media (orientation: landscape){
+    .header .header__image{
+        width: 8%;
+}
+
+.header .header__nav__list{
+    gap:30px;
+    
+}
 }

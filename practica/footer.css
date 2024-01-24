@@ -16,3 +16,16 @@
     gap:15px;
     padding: 15px;
 }
+
+@media (hover:hover){
+.footer__nav__list li i:hover{
+    background-color: var(--elements-color);
+    padding: 5px;
+}
+}
+
+@media (orientation: landscape){
+    .footer__nav__list li {
+        gap:30px;
+    }
+}

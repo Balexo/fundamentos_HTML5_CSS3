@@ -1,4 +1,5 @@
 .profile{
+    color: var(--nav-color);
     height: 75dvh;
     background-image: url(images/fondoPlaneta.jpg);
     background-size: cover;
@@ -6,11 +7,14 @@
     outline-color: var(--main-text-color);
     outline-width: 5px;
     margin: 5%;
+    min-height: 490px;
 }
  
 h2{
     text-align: center;
-    margin: 6% 5% 0%; /*Para separar el texto del margen izquierdo y derecho*/
+    margin: 6% 5%; /*Para separar el texto del margen izquierdo y derecho*/
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -42,6 +46,18 @@ width:35px;
     grid-template-columns: 1fr 1fr;
     width:90%;
     margin-left: 10%;
+}
 
+
+@media (orientation: landscape){
+    .profile{
+        min-height: 190px;
+        height: auto;
+    }
+    .profile .profile__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 }
