@@ -17,6 +17,9 @@
     padding: 15px;
 }
 
+.footer p{
+    padding-bottom: 3%;
+}
 @media (hover:hover){
 .footer__nav__list li i:hover{
     background-color: var(--elements-color);

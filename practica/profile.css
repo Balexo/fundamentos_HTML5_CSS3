@@ -12,9 +12,8 @@
  
 h2{
     text-align: center;
-    margin: 6% 5%; /*Para separar el texto del margen izquierdo y derecho*/
-    padding-top: 10px;
-    padding-bottom: 20px;
+    margin: 2% 5%; /*Para separar el texto del margen izquierdo y derecho*/
+    padding-top: 5px;
 }
 
 
@@ -44,8 +43,8 @@ width:35px;
 .soft__skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width:90%;
-    margin-left: 10%;
+    /*width:90%;
+    margin-left: 10%;*/
 }
 
 

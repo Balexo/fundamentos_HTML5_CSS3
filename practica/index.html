@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="proyects.css">
+    <link rel="stylesheet" href="form.css">
     
 </head>
 <body>
@@ -115,13 +116,47 @@
                 <div class="proyects__item1">Intro JS</div>
                 <div class="proyects__item2">AdventJS</div>
                 <div class="proyects__item3">Checkout passanger</div>
-                <div class="proyects__item3">Github</div>
-                <div class="proyects__item4">HTML5 y CSS3 fundamentos</div>
+                <div class="proyects__item4">Github</div>
+                <div class="proyects__item5">HTML5 y CSS3 fundamentos</div>
             </div>
         </section>
-        <section class="form">
+        <section>
+            <form class="form" method="post" action="https://oscarportafolio/infosubmit">
             <h2>Formulario</h2>
-
+            <div>
+                <label class="form__element" for="nombre">Nombre</label>
+                <input class="form__element" name="nombre" id="nombre" type="text" placeholder="Introduce tu nombre" required>
+                <label class="form__element" for="apellidos">Apellidos</label>
+                <input class="form__element" name="apellidos" id="apellidos" type="text" placeholder="Introduce tus apellidos" required>
+                <label class="form__element" for="phone">Teléfono</label>
+                <input class="form__element" for="phone" id="phone" name="phone" type="tel" placeholder="Introduce tu teléfono" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required></input>
+            </div>
+            <fieldset class="form__element">
+                <legend>Como me conociste</legend>
+                    <div class="form__element__radio__list">
+                        <label for="universidad">Universidad</label>
+                        <input type="radio" id="universidad" name="comoMeConociste" value="universidad" checked>
+                        <label for="keepcoding">KeepCoding</label>
+                        <input type="radio" id="keepcoding" name="comoMeConociste" value="keepcoding">
+                        <label for="colegio">Colegio</label>
+                        <input type="radio" id="colegio" name="comoMeConociste" value="colegio">
+                        <label for="github">GitHub</label>
+                        <input type="radio" id="github" name="comoMeConociste" value="github">
+                    </div>
+            </fieldset>
+            <div class="form__element">
+                <label class="form__element" for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" id="bio" cols="20" rows="10" maxlength="180" required></textarea>
+            </div>
+            <div class="form__element form__element--newsletter">
+                <label class="form__element " id="newsletter" for="newsLetter">Recibir newsletter</label>
+                <input type="checkbox" name="newsLetter" id="newsLetter" value="selected">
+            </div>
+            <div>
+                <input class="btn" type="reset" value="Resetear">
+                <input class="btn" type="submit" value="Enviar">
+            </div>
+            </form>
         </section>
     </main>
     <footer class="footer">
