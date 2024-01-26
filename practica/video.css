@@ -1,0 +1,22 @@
+.video__size{
+    width:95%;
+    margin: 0px auto; 
+    
+}
+
+.video__size video{
+    width: 100%;
+    animation: fadeIn 8s;
+}
+
+.video__source{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 0.8em;
+    color: var(--main-text-color)
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0.5;}
+    100% {opacity: 1;}
+}

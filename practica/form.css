@@ -1,0 +1,76 @@
+.form{
+    background-color: var(--background-color2);
+    margin:0 auto;
+    width: 95%;
+    
+}
+
+.form .form__element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap:5px;
+    padding: 2px 2px;
+    
+}
+.form__element__radio__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.form .form__element.form__element--newsletter{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+    gap:0px;
+}
+
+.form .form__element.form__element--newsletter input{
+    margin-left: -4%;
+    
+}
+
+.form .form__element legend{
+    margin-top: 6px;
+}
+
+
+
+@media (hover:hover){
+    .btn:hover{
+        background-color: var(--elements-color);
+        padding: 5px;
+    }
+}
+
+@media(min-width: 768px){
+    .header { grid-area: header; }
+    .profile { grid-area: profile; }
+    .summary { grid-area: summary; }
+    .soft__skills {grid-area: soft__skills;}
+    .form {grid-area: form;}
+    .proyects {grid-area: proyects}
+    .footer { grid-area: footer; }
+
+    body{
+        font-size: 1.4em;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "profile summary"
+        "soft__skills form"
+        "proyects proyects"
+        "footer footer";
+    }
+    
+    /*
+    .fa-solid{
+        height: 1.4em;
+    }
+    */
+}

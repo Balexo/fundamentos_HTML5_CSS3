@@ -20,6 +20,12 @@
 .footer p{
     padding-bottom: 3%;
 }
+
+.footer__nav__list a:link, .footer__nav__list a:visited {
+    color: var(--main-text-color);
+
+
+}
 @media (hover:hover){
 .footer__nav__list li i:hover{
     background-color: var(--elements-color);

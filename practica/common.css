@@ -15,3 +15,52 @@
     margin:0;
     padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    text-align: center;
+    margin: 4% 5%; /*Para separar el texto del margen izquierdo y derecho*/
+    padding-top: 5px;
+}
+
+.btn{
+    margin: 5px 0px 8px 5%;
+    padding: 7px;
+    background-color: var(--background-color2);
+}
+
+.btn.btn2{
+    margin: 5px 0px 8px 0%;
+   
+}
+
+@media(min-width: 768px){
+    .header { grid-area: header; }
+    .profile { grid-area: profile; }
+    .summary { grid-area: summary; }
+    .soft__skills {grid-area: soft__skills;}
+    /*.form {grid-area: form;}*/
+    .proyects {grid-area: proyects}
+    .footer { grid-area: footer; }
+
+    body{
+        font-size: 1.4em;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header header"
+        "profile summary"
+        "soft__skills form"
+        "proyects proyects"
+        "footer footer";
+    }
+    
+    /*
+    .fa-solid{
+        height: 1.4em;
+    }
+    */
+}

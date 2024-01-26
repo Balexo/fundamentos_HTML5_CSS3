@@ -18,6 +18,7 @@
     max-width: 80px;
     opacity: 0.7;
     margin-right: 10px;
+    background-color: var(--nav-color);
 }
 
 .header__nav{
@@ -41,6 +42,11 @@
     justify-content: center;
 }
 
+.header__nav__list__list__items a, li:link, .header__nav__list__list__items a, li:visited {
+    color: var(--main-text-color);
+    text-decoration: none;
+
+}
 @media(hover:hover){
 .header__nav__list__list__items:hover{
     background-color: var(--elements-color);
