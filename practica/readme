@@ -1,0 +1,42 @@
+
+# Fundamentos HTML5 y CSS3
+
+Este repositorio contiene mi trabajo en un proyecto de fundamentos de HTML5 y CSS3.
+
+## Descripción del proyecto
+Página web de mi portafolio. Se indica el conocimiento de tecnologías, una breve descripción sobre mi, proyectos y como contactar comigo. En el proyecto html5 y css3 fundamentos lleva a una segunda página donde hay un vídeo y están los proyectos de la página 404 y 500.
+Las tecnologías usadas es exclusivamente HTML5 y CSS3 puro - sin librerías.
+Conceptos clave aprendidos:
+
+- Estructura básica de una página web con HTML5.
+- Estilización de una página web con CSS3.
+- Creación de animaciones y transiciones con CSS3.
+- Diseño responsivo para adaptar la página a diferentes tamaños de pantalla.
+- Aprender a realizar un README completo.
+
+Retos:
+    - Crear una apariencia congruente con la elección de paletas de colores, imágenes y logo de marca OB (la B dentro de la O).
+    - Hacerlo responsive para diferentes tamaños de pantalla.
+    - Utilización de grid y flexbox para alinear y encajar elementos.
+    - Uso de multiples CSS para ordenar toda el volumen de personalización.
+Archivo profile contiene clase profile y about__Oscar para el archivo CSS.
+
+## Estructura del repositorio
+
+El repositorio está organizado de la siguiente manera:
+
+- `***.html`: Este es el archivo principal que contiene la estructura HTML de la página web.
+- `***.css`: Estos archivo contiene todos los estilos CSS utilizados para dar formato y diseñar la página web.
+- `README.md`: Este archivo que estás leyendo actualmente.
+
+## Cómo utilizar este repositorio
+
+Para utilizar este repositorio, puedes clonarlo a tu máquina local utilizando Git. Asegúrate de tener un navegador moderno para abrir los archivos `***.html` y ver la página web.
+
+## Contribuir
+
+Si tienes sugerencias para mejorar este proyecto, por favor abre un issue o envía un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la licencia MIT.

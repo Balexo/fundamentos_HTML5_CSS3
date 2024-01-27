@@ -1,7 +1,7 @@
 .profile{
     color: var(--background-color);
     height: 100dvh;
-    background-image: url(images/fondoPlaneta.jpg);
+    background-image: url(images/fondoPlaneta_bzfeg8_c_scale\,w_443.jpg);
     background-size: cover;
     outline-style: solid;
     outline-color: var(--nav-color);
@@ -94,8 +94,13 @@ width:35px;
     margin-left: 10%;*/
 }
 
-
-@media (orientation: landscape){
+@media (min-width: 768px){
+    .profile{
+        background-image: url(images/fondoPlaneta_bzfeg8_c_scale\,w_748.jpg);
+}
+}
+/*
+@media (orientation: landscape) and (max-width: 768px){
     .profile{
         min-height: 190px;
         height: auto;
@@ -108,11 +113,12 @@ width:35px;
 }
 
 }
+*/
 
-
-@media (min-width: 768px){
+/*@media (min-width: 768px){
     .profile{
      height: 85dvh;
-     width: 50dvh;
+     width: 40dvh;
 }
 }
+*/

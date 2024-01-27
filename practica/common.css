@@ -16,6 +16,7 @@
     padding: 0;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -39,28 +40,30 @@ h2{
 
 @media(min-width: 768px){
     .header { grid-area: header; }
-    .profile { grid-area: profile; }
     .summary { grid-area: summary; }
-    .soft__skills {grid-area: soft__skills;}
-    /*.form {grid-area: form;}*/
+    .skills { grid-area: skills; }
     .proyects {grid-area: proyects}
+    .form {grid-area: form;}
     .footer { grid-area: footer; }
 
-    body{
+    main{
         font-size: 1.4em;
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         grid-template-areas: 
         "header header"
-        "profile summary"
-        "soft__skills form"
-        "proyects proyects"
+        "proyects summary"
+        "skills form"
+        
         "footer footer";
     }
     
-    /*
-    .fa-solid{
-        height: 1.4em;
+    
+}
+
+@media (hover:hover){
+    .btn:hover{
+        background-color: var(--elements-color);
+        padding: 5px;
     }
-    */
 }
