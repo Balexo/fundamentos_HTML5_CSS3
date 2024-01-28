@@ -61,5 +61,9 @@ h2{
     }
 }
 
-
+@media(min-width: 1000px){
+    main{
+        grid-template-columns: 1.3fr 1.7fr;
+}
+}
 

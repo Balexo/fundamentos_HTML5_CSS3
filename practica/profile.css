@@ -66,14 +66,6 @@
     background-color: #000000;
 }
 
-
-/*@media (hover:hover){
-    .profile .profile__content .profile__content__element{
-        width:120%;  
-        height: 120%;
-}
-}
-*/
 .profile .profile__content img {
 width:35px;
 }
@@ -106,26 +98,16 @@ width:35px;
         gap:35px;
 }
 }
-/*
-@media (orientation: landscape) and (max-width: 768px){
-    .profile{
-        min-height: 190px;
-        height: auto;
-        padding-bottom: 5%;
+
+@media(min-width: 750px){
+    .profile .profile__content .profile__content__element{
+        margin-top: 2%;
+}
+}
+
+@media(min-width:1000px){
+    .about__Oscar{
+    line-height: 2;
     }
-    .profile .profile__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+   
 }
-
-}
-*/
-
-/*@media (min-width: 768px){
-    .profile{
-     height: 85dvh;
-     width: 40dvh;
-}
-}
-*/
