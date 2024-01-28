@@ -10,13 +10,19 @@
 }
 
 .video__source{
-    font-style: italic;
     text-decoration: underline;
-    font-size: 0.8em;
+    font-size: 1.5em;
     color: var(--main-text-color)
+}
+
+@media(max-width: 768px){
+    .video__source{
+        font-size: 0.8em;
+    }
 }
 
 @keyframes fadeIn{
     0% {opacity: 0.5;}
     100% {opacity: 1;}
 }
+
