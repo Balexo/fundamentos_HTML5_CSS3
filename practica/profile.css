@@ -1,6 +1,6 @@
 .profile{
     color: var(--background-color);
-    height: 100dvh;
+    height: auto;
     background-image: url(images/fondoPlaneta_bzfeg8_c_scale\,w_443.jpg);
     background-size: cover;
     outline-style: solid;
@@ -8,6 +8,7 @@
     outline-width: 5px;
     margin: 5%;
     min-height: 490px;
+    padding-bottom: 5%;
 }
 
 .profile .profile__content .profile__content__element{
@@ -87,7 +88,7 @@ width:35px;
     margin-top: 3px;
 }
 
-.soft__skills{
+.about__Oscar__summary__skills{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*width:90%;
@@ -97,6 +98,12 @@ width:35px;
 @media (min-width: 768px){
     .profile{
         background-image: url(images/fondoPlaneta_bzfeg8_c_scale\,w_748.jpg);
+}
+}
+
+@media(min-width: 750px) and (max-width:1000px){
+    .profile .profile__content .profile__content__element{
+        gap:35px;
 }
 }
 /*

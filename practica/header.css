@@ -71,3 +71,10 @@
     
 }
 }
+
+@media (min-width: 768px){
+    .header .header__nav__list{
+        gap:50px;
+        font-size: 1.7em;
+    }
+}

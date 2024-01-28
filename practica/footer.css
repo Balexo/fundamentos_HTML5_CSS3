@@ -38,3 +38,10 @@
         gap:30px;
     }
 }
+
+@media (min-width: 768px){
+    .footer__nav__list li {
+        gap:50px;
+        font-size: 1.7em;
+    }
+}
