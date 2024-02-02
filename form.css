@@ -1,0 +1,39 @@
+.form{
+    background-color: var(--background-color2);
+    margin:0 auto;
+    width: 95%;
+    
+}
+
+.form .form__element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap:5px;
+    padding: 2px 2px;
+    
+}
+.form__element__radio__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.form .form__element.form__element--newsletter{
+    display: flex;
+    flex-direction: row;
+    margin-right: 0%;
+    gap:0px;
+}
+
+.form .form__element.form__element--newsletter input{
+    margin-left: -4%;
+    
+}
+
+.form .form__element legend{
+    margin-top: 6px;
+}
