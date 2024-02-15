@@ -1,0 +1,110 @@
+.proyects .proyects__div{
+    margin:0px 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: 200px 150px 180px;
+    gap:8px;
+    color:white;
+    font-size: 1.6em;
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px black;
+    height: 100%;
+}
+
+.proyects__div .proyects__item1{
+    grid-row: span 2;
+    background-image: url("../images/IntroJS.jpg");
+    background-size: 200px;
+    border: 3px solid var(--elements-color);
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;    
+}
+
+.proyects__div .proyects__item1__video{
+    grid-row: span 2;
+    background-color: var(--background-color);
+    background-size: 200px;
+    border: 3px solid var(--elements-color);
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;    
+}
+
+.proyects__div .proyects__item2{
+    grid-column: span 2;
+    background-image: url("../images/AdventJS.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid var(--elements-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyects__div .proyects__item2__video{
+    grid-column: span 2;
+    background-color: var(--background-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid var(--elements-color);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.proyects__div .proyects__item3{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("../images/check-counter.svg");
+    background-size: 45px;
+    width: 100%;
+    border: 3px solid var(--elements-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyects__div .proyects__item4{
+    grid-row: span 1;
+    grid-column: span 1;
+    background-image: url("../images/git.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: 3px solid var(--elements-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyects__div .proyects__item5{
+    grid-column: span 3;
+    background-image: url("../images/fundamentos.JPG");
+    background-size: 430px;
+    border: 3px solid var(--elements-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proyects__div a, li:link, .proyects__div a, li:visited {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    -webkit-text-stroke: inherit;
+    text-decoration: none;
+
+}
+
+@media (hover:hover){
+    .proyects .proyects__div [class^="proyects__item"]:hover{
+        border: 10px solid var(--elements-color);
+}
+}

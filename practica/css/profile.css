@@ -1,0 +1,121 @@
+.profile{
+    color: var(--background-color);
+    height: auto;
+    background-image: url(../images/fondoPlaneta_bzfeg8_c_scale\,w_443.jpg);
+    background-size: cover;
+    outline-style: solid;
+    outline-color: var(--nav-color);
+    outline-width: 5px;
+    margin: 5%;
+    min-height: 490px;
+    padding-bottom: 5%;
+}
+
+.profile .profile__content .profile__content__element{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px; 
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+.progress__bar{
+    width: 75%;
+    height: 10px;
+    background-color: white; 
+    border-radius: 5px;
+}
+
+.myBarCss3 {
+    width: 60%;
+    animation: fill 5s ease-in-out;
+    transition: width 2s ease-in-out;
+}
+
+@keyframes fill {
+    0%   {width: 0%;}
+    25%  {width: 60%;}
+    50%  {width: 75%;}
+    60%  {width: 50%;}
+    100% {width: 70%;}
+}
+
+
+.myBarHTML5, .myBarCss3, .myBarJavaScript, .myBarSql, .myBarPython, .myBarJava {
+    height: 10px;
+    border-radius: 5px;
+    animation: fill 4s ease-in-out;
+}
+
+.myBarHTML5 {
+    background-color: #000033;
+}
+
+.myBarCss3 {
+    background-color: #003300;
+}
+
+.myBarJavaScript {
+    background-color: #FFD700;
+}
+
+.myBarSql {
+    background-color: #330033;
+}
+
+.myBarPython {
+    background-color: #333333;
+}
+
+.myBarJava {
+    background-color: #000000;
+}
+
+.profile .profile__content img {
+width:35px;
+}
+
+.about__Oscar{
+    line-height: 1.6;
+    list-style-position: inside;
+    margin: 2% 5% 3%;/*Para separar el texto del margen izquierdo y derecho*/
+}
+
+.about__Oscar p{
+    margin-top: 3px;
+}
+
+.about__Oscar__summary__skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*width:90%;
+    margin-left: 10%;*/
+}
+
+@media (min-width: 768px){
+    .profile{
+        background-image: url(../images/fondoPlaneta_bzfeg8_c_scale\,w_748.jpg);
+}
+}
+
+@media(min-width: 750px) and (max-width:1000px){
+    .profile .profile__content .profile__content__element{
+        gap:35px;
+}
+}
+
+@media(min-width: 750px){
+    .profile .profile__content .profile__content__element{
+        margin-top: 2%;
+}
+}
+
+@media(min-width:1000px){
+    .about__Oscar{
+    line-height: 2;
+    }
+   
+}
